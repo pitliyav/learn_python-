@@ -8,7 +8,7 @@ def min_elm_list(my_list):
     my_list.sort()  # type: object
     print(my_list)
     if my_list[0] >= 0:
-        minimum = my_list[0]+2
+        minimum = my_list[0]+1
     else:
         minimum = 1
         print(minimum)
